@@ -26,9 +26,7 @@ class ViewController: UIViewController {
         }
         
         let captureOutput = AVCaptureAudioDataOutput()
-        
         captureOutput.setSampleBufferDelegate(self, queue: dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0))
-        
         
         if session.canAddOutput(captureOutput) {
             session.addOutput(captureOutput)
@@ -81,7 +79,7 @@ extension ViewController : AVCaptureAudioDataOutputSampleBufferDelegate {
 
             }
             
-            let randomDuration = Double(abs(channel.averagePowerLevel))
+            let randomDuration = Double(abs(1 / channel.averagePowerLevel)) * 6
             print(randomDuration)
             
             UIView.animateWithDuration(randomDuration, delay: 0, options: .CurveEaseOut, animations: { () -> Void in
@@ -113,3 +111,4 @@ extension ViewController : AVCaptureAudioDataOutputSampleBufferDelegate {
     }
     
 }
+
