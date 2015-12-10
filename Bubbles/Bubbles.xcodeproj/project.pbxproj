@@ -12,6 +12,7 @@
 		2B90AF8A1BF13DAF0036B80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90AF881BF13DAF0036B80E /* Main.storyboard */; };
 		2B90AF8C1BF13DAF0036B80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B90AF8B1BF13DAF0036B80E /* Assets.xcassets */; };
 		2B90AF8F1BF13DAF0036B80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90AF8D1BF13DAF0036B80E /* LaunchScreen.storyboard */; };
+		2BF8FC511C1A18CF0033FF2A /* BubblesOutputExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8FC501C1A18CF0033FF2A /* BubblesOutputExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2B90AF8B1BF13DAF0036B80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B90AF8E1BF13DAF0036B80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B90AF901BF13DAF0036B80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF8FC501C1A18CF0033FF2A /* BubblesOutputExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesOutputExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2B90AF841BF13DAF0036B80E /* AppDelegate.swift */,
 				2B90AF861BF13DAF0036B80E /* ViewController.swift */,
+				2BF8FC501C1A18CF0033FF2A /* BubblesOutputExtension.swift */,
 				2B90AF881BF13DAF0036B80E /* Main.storyboard */,
 				2B90AF8B1BF13DAF0036B80E /* Assets.xcassets */,
 				2B90AF8D1BF13DAF0036B80E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				2B90AF871BF13DAF0036B80E /* ViewController.swift in Sources */,
 				2B90AF851BF13DAF0036B80E /* AppDelegate.swift in Sources */,
+				2BF8FC511C1A18CF0033FF2A /* BubblesOutputExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				2B90AF951BF13DAF0036B80E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
